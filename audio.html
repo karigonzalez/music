@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Music</title>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" type="text/css" href="css/grid-system.css">
+		<link rel="stylesheet" type="text/css" href="css/utilities.css">
+		<link rel="stylesheet" type="text/css" href="css/common.css">
+		<link rel="stylesheet" type="text/css" href="css/audio.css">
+	</head>
+	<body>
+		<header>
+			<a href="index.html" class="titulo"><img src="img/logo.png"></a>
+			<nav class="menu">
+				<a href="audio.html">Audio</a>
+				<a href="video.html">Video</a>
+				<a href="article.html">Article</a>
+				<a href="#contacto">Contact</a>
+			</nav>
+		</header>
+		<section class="audio">
+			<div class="box-text">
+				<h1>THE MUSIC</h1>
+				<p class="texto-central">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+				Minus eaque odit suscipit quia aperiam perferendis ut neque ad nemo eum
+				voluptates modi, ipsa mollitia! Fuga itaque molestiae ut autem quia.</p>
+			</div>
+		</section>
+		<section class="notice row">
+			<div class="col-4">
+				<h2>Article 1</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat molestias dolorum iure ut cumque quia, iusto voluptatem autem unde laboriosam, eveniet.</p>
+			</div>
+			<div class="col-4">
+				<h2>Article 2</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat molestias dolorum iure ut cumque quia, iusto voluptatem autem unde laboriosam, eveniet.</p>
+			</div>
+			<div class="col-4" class="signo">
+				<h2>Article 3</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat molestias dolorum iure ut cumque quia, iusto voluptatem autem unde laboriosam, eveniet.</p>
+			</div>
+		</section>
+		<section class="audio-dance">
+			<h1>AUDIO</h1>
+			<div class="row pt-5 pb-5">
+			    <div id="drop">
+                    <p id="parrafo">Arrastra tu canción</p>
+                </div>
+				<div class="col-3">
+				     <div class="discos" id="drag1" draggable="true"></div>
+				</div>
+				<div class="col-3">
+                     <div class="discos" id="drag2" draggable="true"></div>
+				</div>
+				<div class="col-3">
+                     <div class="discos" id="drag3" draggable="true"></div>
+				</div>
+				<div class="col-3">
+                     <div class="discos" id="drag4" draggable="true"></div>
+				</div>
+			</div>
+			<div class="row pt-5 pb-5">
+				<div class="col-3">
+                     <div class="discos" id="drag5" draggable="true"></div>
+				</div>
+				<div class="col-3">
+                     <div class="discos" id="drag6" draggable="true"></div>
+				</div>
+				<div class="col-3">
+                     <div class="discos" id="drag6" draggable="true"></div>
+				</div>
+				<div class="col-3">
+                     <div class="discos" id="drag6" draggable="true"></div>
+				</div>
+			</div>
+			<div class="hidden">
+                 <audio src="" id="reproductor"></audio>
+		    </div>
+		</section>
+		<section id="contacto" class="contacto">
+			<h3 class="titulo-contactanos">CONTACT FORM</h3>
+			<form class="form" id="form1">
+				<input name="name" type="text" class="feedback-input" placeholder="Name" id="name" />
+				<input name="email" type="text" class="feedback-input" id="email" placeholder="Email" />
+				<textarea name="text" class="feedback-input" id="comment" placeholder="Message"></textarea>
+				<input type="submit" value="Send Your Message!" id="button-blue"/>
+			</form>
+		</section>
+		<footer class="text-white">
+			<img src="img/logo.png" class="logo">
+		</footer>
+		<script src="js/audio.js"></script>
+	</body>
+</html>
