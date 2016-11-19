@@ -49,6 +49,10 @@
 .audio-dance {
 	padding: 7% 10%;
 	background-color: rgba(255,21,255, .9);
+	background-image: url(../img/dark-tl.svg), 
+                    url(../img/dark-tr.svg), 
+                    url(../img/dark-bl.svg), 
+                    url(../img/dark-br.svg);
 	margin: 0 -14px;
 	font-size: 1.6em;
 	text-align: center;
